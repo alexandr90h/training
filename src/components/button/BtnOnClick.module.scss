@@ -1,0 +1,21 @@
+.conteinerButton {
+  width: min-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  text-align: center;
+  p {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+}
+.change {
+  font-size: 20px;
+  font-weight: 800;
+}
+[data-color='ON'] {
+  color: green;
+}
+[data-color='OFF'] {
+  color: red;
+}

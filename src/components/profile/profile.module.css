@@ -1,0 +1,74 @@
+.profile {
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: white;
+  font-family: 'Roboto';
+  border: 1px solid rgb(141, 141, 141);
+  box-shadow: 0px 20px 19px -9px #d8d8d8;
+}
+.description {
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+.avatar {
+  width: 100px;
+  border-radius: 50px;
+  background-color: rgb(206, 206, 206);
+}
+.name {
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 15px;
+}
+.tag {
+  font-size: 16px;
+  margin-top: 10px;
+}
+.location {
+  font-size: 16px;
+  margin-top: 10px;
+}
+.stats {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  border-top: 1px solid #8d8d8d;
+}
+.stats li {
+  /* border: 1px solid #8d8d8d; */
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(236, 236, 236);
+}
+.stats li:first-child {
+  border-bottom-left-radius: 5px;
+}
+.stats li:last-child {
+  border-bottom-right-radius: 5px;
+}
+.stats li:not(:last-child) {
+  border-right: 1px solid #8d8d8d;
+}
+
+.label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.quantity {
+  font-weight: 600;
+}
